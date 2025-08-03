@@ -27,8 +27,8 @@ A modern JavaScript web app that fetches real-time news articles from public API
 
 Live demo: [🔗 Click to Try It](https://your-deployed-app-link.com)
 
-![screenshot](https://your-screenshot-link.com/screenshot.png)
-
+![screenshot](file:///C:/Users/SUJAY%20BARMAN/OneDrive/Desktop/SBH%202k25/%E7%94%BB%E5%83%8F/Screenshots/Screenshot%202025-08-03%20225129.png),
+![screenshot](file:///C:/Users/SUJAY%20BARMAN/OneDrive/Desktop/SBH%202k25/%E7%94%BB%E5%83%8F/Screenshots/Screenshot%202025-08-03%20225142.png)
 ---
 
 ## 📦 Setup Instructions
