@@ -1,0 +1,53 @@
+l<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI News Summarizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 AI News Summarizer</h1>
+            <p>Get live news with intelligent AI-powered summaries</p>
+            <div style="margin-top: 15px; padding: 10px 20px; background: rgba(255,255,255,0.1); border-radius: 20px; display: inline-block;">
+                <small style="opacity: 0.9;">⚠️ Remember to add your NewsAPI key in the JavaScript code</small>
+            </div>
+        </div>
+
+        <div class="controls">
+            <select class="category-select" id="categorySelect">
+                <option value="general">📰 General News</option>
+                <option value="technology">💻 Technology</option>
+                <option value="business">💼 Business</option>
+                <option value="science">🔬 Science</option>
+                <option value="health">🏥 Health</option>
+                <option value="sports">⚽ Sports</option>
+                <option value="entertainment">🎬 Entertainment</option>
+            </select>
+            <button class="fetch-btn" id="fetchBtn">Fetch Latest News</button>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            Fetching latest news and generating AI summaries...
+        </div>
+
+        <div class="stats" id="stats" style="display: none;">
+            <div class="stat-item">
+                <span class="stat-number" id="totalArticles">0</span>
+                <span class="stat-label">Articles</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="summarizedCount">0</span>
+                <span class="stat-label">Summarized</span>
+            </div>
+        </div>
+
+        <div class="news-grid" id="newsGrid"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
