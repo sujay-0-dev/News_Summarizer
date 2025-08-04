@@ -38,3 +38,20 @@ Live demo: [🔗 Click to Try It](https://your-deployed-app-link.com)
 ```bash
 git clone https://github.com/your-username/js-news-summarizer.git
 cd js-news-summarizer
+
+2. Add API Keys
+
+Paste the API key to the config.js file in the root and add:
+
+export const NEWS_API_KEY = "your_newsapi_key";
+export const OPENAI_API_KEY = "your_openai_key"; // Optional
+
+Get Your API Keys
+
+NewsAPI: https://newsapi.org/register
+
+OpenAI (Optional): https://platform.openai.com/account/api-keys
+
+Run
+
+Open index.html in a browser or use Live Server.
